@@ -57,7 +57,6 @@ def value_of_ace(card_one, card_two):
     2.  'A' (ace card) = 11 (if already in hand)
     3.  '2' - '10' = numerical value.
     """
-    'A' == 11
 
     if card_one == 'A' or card_two == 'A':
         return 1
